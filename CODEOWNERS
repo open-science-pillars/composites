@@ -1,0 +1,4 @@
+# Ownership by team (ADR A, decision 10; the registry is osp/teams.yaml in
+# build-kit). Cross-sphere composites, planned; a composite change needs review from each sphere it touches. One person
+# occupies every team during the interim solo period.
+* @open-science-pillars/composites-maintainers
