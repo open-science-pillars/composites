@@ -24,8 +24,9 @@ a capability and a knowledge bundle are.
 ## Intended scope
 
 A composite is a capability whose evidence genuinely crosses spheres. It
-stays a scaffold until it has its own steward, joint knowledge and
-validation. An interdisciplinary recipe whose governing evidence stays
+stays a scaffold until it has a maintainer, a reviewer from each
+sphere it touches, joint knowledge and validation; it needs no steward
+of its own. An interdisciplinary recipe whose governing evidence stays
 in one sphere, such as the basin water balance in hydrology, is not a
 composite and lives with its sphere. Individual composites declare the
 spheres they touch; this repository declares none at repository level.
@@ -36,7 +37,7 @@ Owned by @open-science-pillars/composites-maintainers (`CODEOWNERS`); one person
 holds the team during the interim solo period, and accepting a
 maintainer is a membership change, never a rearrangement.
 
-Review: each composite names the sphere maintainers of every sphere it touches, and a composite change needs review from each of them. None engaged yet.
+Review: each composite names the sphere maintainers of every sphere it touches, and a composite change needs review from each of them. Provider contacts who could confirm the facts a composite relies on are named by the composite; none engaged yet.
 
 ## What to do here
 
@@ -44,14 +45,18 @@ Review: each composite names the sphere maintainers of every sphere it touches, 
   repository for its first release; describe the analyses you would want
   from these capabilities in the marketplace
   [Discussions](https://github.com/open-science-pillars/marketplace/discussions).
-- **A candidate steward**: open
-  the new domain capability issue in the organization's
-  [.github](https://github.com/open-science-pillars/.github) repository;
-  a capability here starts with the people who sign its facts.
+- **A person at a data center or a partner organization**: start by
+  confirming or correcting a single concept from the organization's
+  [confirm-a-concept issue](https://github.com/open-science-pillars/.github/issues/new?template=confirm_concept.yml),
+  no tooling needed; the new domain capability issue in the same
+  [.github](https://github.com/open-science-pillars/.github) repository
+  is there when you want more. A capability here starts with the people
+  who know the data; their confirmation is invited at every step and
+  required at none.
 - **A maintainer**: promotion out of planned is governed, cross-cutting
   work, never a quiet commit: a dated entry in the
   [pre-registered plan](https://github.com/open-science-pillars/marketplace/blob/main/docs/phase2-preregistration.md),
-  a steward who signs, a knowledge bundle that conforms to the knowledge
+  a named provider contact who has been invited, a knowledge bundle that conforms to the knowledge
   format and is validated in evals, and only then the package, surfaces
   and runtime metadata that the planned status forbids. The proposal is
   decided under the roadmap proposal labels.
